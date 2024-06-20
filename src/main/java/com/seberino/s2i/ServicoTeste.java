@@ -6,9 +6,9 @@ import javax.enterprise.context.ApplicationScoped;
 public class ServicoTeste {
     
 
-    public String comprimento(String nome)
+    public String comprimento(Cliente cliente)
     {
-        String retorno =  "Bem vindo " + nome;
+        String retorno =  "Bem vindo " + cliente.getNome();
         return retorno;
     }
 
